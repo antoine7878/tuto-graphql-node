@@ -1,7 +1,7 @@
 // 1
 datasource db {
   provider = "sqlite" 
-  url      = "file:./dev.db"
+  url = "***"
 }
 
 // 2
@@ -9,6 +9,7 @@ generator client {
   provider = "prisma-client-js"
 }
 
+// 3
 // 3
 model Link {
   id          Int      @id @default(autoincrement())
